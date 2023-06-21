@@ -10,5 +10,20 @@ Descripción, códigos y video de implementación del proyecto de robótica
 - Banda transportadora del LabSIR, apagada.
 - Estantería de madera y balde metálico.
 
-# 2)Descripción
+# 2) Descripción
+
+## Proceso de alistamiento
+## Herramientas
+## Piezas
+
+# 3) Planos y fotografias herramienta
+
+# 4) RobotStudio
+
+# 5) Código de RAPID
+
+# 6) Comparación de tiempos
+
+# 7) Video de sustentanción
+
 
