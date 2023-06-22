@@ -37,7 +37,7 @@ Entre las herramientas empleadas en el laboratorio se tienen:
 ## Piezas
 Las piezas se diseñaron como circunferencias de 7cm con apoyos para darles un ángulo de 55° respecto a la horizontal. Esto con el objetivo de que se tuviera un área suficiente para que la ventosa no presentara problemas en el agarre y la inclinación para que la herramienta pueda acceder de forma sencilla a la mismas.
 
---------------------------------------------------FIGURA DE LAS PEIZAS--------------------------------------------------------------------------------------
+![Imagen 2](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/Piezas.jpg)
 
 # 3) Planos y fotografias herramienta
 La herramienta se construyó buscando que esta sostuviese tanto el gancho como la válvula. Se diseñó con inventor para posteriormente ser impresa en 3D. A continuación se presenta el modelado de la herramienta y el resultado en físico.
