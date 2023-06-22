@@ -107,8 +107,13 @@ Esta rutina sigue los siguientes pasos:
   -  Se esperan 2s para que la pieza caiga en el balde
       
 # 6) Comparación de tiempos
+Se midió el tiempo para una rutina completa y para la ubicación de las piezas a mano:
 
-------------------------------------------------------TOMAR TIEMPO MAÑANA---------------------------------------------------------
+  - Una rutina completa en promedio dura 1:25 min 48
+  - Una rutina de selección a mano dura alrededor de 2:00 min 
+
+Inicialmente no se llegaria a la conclusión de  35s de diferencia fuese un tiempo significativo, sin embargo si la selección de píezas se lleva a escala industrial la cantidad vez en que puede repetirse este proceso pasa de 30 a 48 veces. Esto sin contar que una persona siente los efectos del cansancio.
+
 
 # 7) Video de sustentanción
 
