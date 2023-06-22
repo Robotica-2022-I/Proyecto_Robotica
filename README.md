@@ -57,10 +57,6 @@ El resultado en físico de la herramienta se aprecia en las siguientes imágenes
 ![Imagen 5](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/Herramienta_gancho.jpg)
 
 
-
-
-------------------------------------------------------FOTOS HERRAMIENTA E INVENTOR XD-------------------------------------------------------------------
-
 # 4) RobotStudio
 En el código de robostudio se tiene una estanteria, con medidas reales, las piezas fabricadas (ya con su inclinación), la banda transportadora, el balde y el brazo robot, como se puede apreciar en las siguientes imagenes:
 
@@ -80,6 +76,19 @@ Al inicio del código podemos encontrar la ubicación de todos los puntos necesa
 Dentro del main se encuentra toda la lógica para realizar las acciones en orden, las condiciones de entradas y salidas para iniciar las secuencias y evidenciar cuál se está trabajando, así como el accionamiento de la válvula que permite el funcionamiento de la ventosa.
 
 ---------------------------------------------------------Subir Rapid------------------------------------------
+
+```
+            WAITTIME 0.25;
+            SetDO DO_02,1;
+            WAITTIME 2;
+            SetDO DO_02,0;
+            Pieza_1B;
+            WAITTIME 0.8;
+            SetDO DO_01,1;
+            WAITTIME 2;
+            SetDO DO_01,0;
+```
+
 
 
 # 6) Comparación de tiempos
