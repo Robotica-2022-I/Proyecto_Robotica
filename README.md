@@ -20,7 +20,7 @@ David Leonardo Cocoma Reyes
 
 # 2) Descripción
 
-Con el proyecto se busco tomar 3 de 6 piezas de una la estantería para ser ubicadas en el balde. De la misma manera el bande debe variar su posición, salir de una posición inicial y volver tras un tiempo.
+El objetivo de este proyecto es tomar un balde de una banda transportadora ubicada cerca del manipulador, dejarlo en algún lugar en el espacio de trabajo y tomar 3 de 6 posibles piezas de una estantería para depositarlas en el balde, volver a tomarlo y llevarlo devuelta a la banda transportadora.
 
 ## Proceso de alistamiento
 Se cuenta en el laboratorio con robot ABB IBR 140, una banda transpostadora y una estanteria, junto algunas cajas que pueden servir como apoyo en caso de que se requiera. El robot y la banda ya poseen posiciones fijas que se recomiendan no cambiar (ya que esto podria perjudicar el trabajo de los demas equipos de trabajo), por otro lado las estanterias pueden tener la ubicación que se desea. La disposición empleada se presenta en la siguiente figura:
@@ -36,18 +36,21 @@ Entre las herramientas empleadas en el laboratorio se tienen:
   - Un gancho
 
 ## Piezas
-Las piezas se diseñaron como circunferencias de 7cm con apoyos para darles un ángulo de 45° respecto a la horizontal.
+Las piezas se diseñaron como circunferencias de 7cm con apoyos para darles un ángulo de 55° respecto a la horizontal. Esto con el objetivo de que se tuviera un área suficiente para que la ventosa no presentara problemas en el agarre y la inclinación para que la herramienta pueda acceder de forma sencilla a la mismas.
 
 --------------------------------------------------FIGURA DE LAS PEIZAS--------------------------------------------------------------------------------------
 
 # 3) Planos y fotografias herramienta
-La herramienta se construyó buscando que esta sostuviese tanto el gancho como la válvula. Se diseñó con inventor para posteriormente ser impresa.A continuación se presenta el modelado de la herramienta y el resultado en físico.
+La herramienta se construyó buscando que esta sostuviese tanto el gancho como la válvula. Se diseñó con inventor para posteriormente ser impresa en 3D. A continuación se presenta el modelado de la herramienta y el resultado en físico.
 
+![Imagen 1](Imagenes proyecto/image.png)
+La herramienta fue diseñada en 3 partes de forma que en cazo de que alguna llegara a dañarse se pudiera reemplazar de forma sencilla y económica.
 
 ------------------------------------------------------FOTOS HERRAMIENTA E INVENTOR XD-------------------------------------------------------------------
 
 # 4) RobotStudio
 En el código de robostudio se tiene una estanteria, con medidas reales, las piezas fabricadas (ya con su inclinación), la banda transportadora, el balde y el brazo robot, como se aprecia en la siguiente imagen:
+
 
 
 ----------------------------------------------------------PANTALLAZO ROBOSTUDIO------------------------------------------------
