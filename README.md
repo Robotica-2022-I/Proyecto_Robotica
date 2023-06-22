@@ -26,6 +26,7 @@ El objetivo de este proyecto es tomar un balde de una banda transportadora ubica
 Se cuenta en el laboratorio con robot ABB IBR 140, una banda transpostadora y una estanteria, junto algunas cajas que pueden servir como apoyo en caso de que se requiera. El robot y la banda ya poseen posiciones fijas que se recomiendan no cambiar (ya que esto podria perjudicar el trabajo de los demas equipos de trabajo), por otro lado las estanterias pueden tener la ubicación que se desea. La disposición empleada se presenta en la siguiente figura:
 
 ![Imagen 1](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/Brazo%20armado.jpg)
+
 Ademas como se logra ver, la "planta de trabajo" debe poseer un testigo que demuestre el funcionamiento del proceso (el LED en verde de la foto).
 
 ## Herramientas
@@ -44,10 +45,13 @@ Las piezas se diseñaron como circunferencias de 7cm con apoyos para darles un �
 La herramienta se construyó buscando que esta sostuviese tanto el gancho como la válvula. Se diseñó con inventor para posteriormente ser impresa en 3D. A continuación se presenta el modelado de la herramienta y el resultado en físico.
 
 ![Imagen 2](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/medidaspng.png)
+
 La herramienta fue diseñada en 3 partes de forma que en cazo de que alguna llegara a dañarse se pudiera reemplazar de forma sencilla y económica.
 
 El modelo en inventor con el gancho y la ventosa queda de la siguiente forma:
 ![Imagen 3](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/ensamble.png)
+
+
 
 
 ------------------------------------------------------FOTOS HERRAMIENTA E INVENTOR XD-------------------------------------------------------------------
