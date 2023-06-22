@@ -82,11 +82,10 @@ Al inicio del código podemos encontrar la ubicación de todos los puntos necesa
 Cabe aclarar que, este código es resultante de la rutina creada en robostudio.
 
 
-Dentro del main se encuentra toda la lógica para realizar las acciones en orden, las condiciones de entradas y salidas para iniciar las secuencias y evidenciar cuál se está trabajando, así como el accionamiento de la válvula que permite el funcionamiento de la ventosa.
-
----------------------------------------------------------Subir Rapid------------------------------------------
+Dentro del main se encuentra toda la lógica para realizar las acciones en orden, las condiciones de entradas y salidas para iniciar las secuencias y evidenciar cuál se está trabajando, así como el accionamiento de la válvula que permite el funcionamiento de la ventosa. Un ejemplo de lógica del Main, en este caso para la pieza 1, se presenta a continuación: 
 
 ```
+            Pieza_1;
             WAITTIME 0.25;
             SetDO DO_02,1;
             WAITTIME 2;
@@ -98,11 +97,18 @@ Dentro del main se encuentra toda la lógica para realizar las acciones en orden
             SetDO DO_01,0;
 ```
 
+Esta rutina sigue los siguientes pasos:
 
-
+  -  Llama los puntos para ir a la pieza 1 
+  -  Espera 0.25s y activa la válvula de succión (DO_02,0)
+  -  Se desactiva dicha válvula, ya que el robot ya se encuentra succionando la pieza
+  -  Se llaman los puntos para desplazar y dejar las piezas en el balde
+  -  Se envia la señal para detener el aire
+  -  Se esperan 2s para que la pieza caiga en el balde
+      
 # 6) Comparación de tiempos
 
-------------------------------------------------------TOMAR TIMEPO MAÑANA---------------------------------------------------------
+------------------------------------------------------TOMAR TIEMPO MAÑANA---------------------------------------------------------
 
 # 7) Video de sustentanción
 
