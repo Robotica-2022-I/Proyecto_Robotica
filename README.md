@@ -43,7 +43,7 @@ Las piezas se diseñaron como circunferencias de 7cm con apoyos para darles un �
 # 3) Planos y fotografias herramienta
 La herramienta se construyó buscando que esta sostuviese tanto el gancho como la válvula. Se diseñó con inventor para posteriormente ser impresa en 3D. A continuación se presenta el modelado de la herramienta y el resultado en físico.
 
-![Imagen 1](Imagenes proyecto/image.png)
+![Imagen 2]([Imagenes proyecto/image.png](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/image.png))
 La herramienta fue diseñada en 3 partes de forma que en cazo de que alguna llegara a dañarse se pudiera reemplazar de forma sencilla y económica.
 
 ------------------------------------------------------FOTOS HERRAMIENTA E INVENTOR XD-------------------------------------------------------------------
