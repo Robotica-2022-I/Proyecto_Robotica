@@ -69,7 +69,7 @@ En el código de robostudio se tiene una estanteria, con medidas reales, las pie
 En este software se hace la programación de todas las rutinas y trayectorias para el desarrollo del proyecto, se habla en detalle en el apartado del código en RAPID.
 
 # 5) Código de RAPID
-El código RAPID empleado se encuentra adjunto a este repositorio. 
+El código RAPID empleado se encuentra adjunto a este repositorio, en la carpeta "Proyecto_rob". El código que se sube al ABB  se llama "Proyecto_rob.pgf"
 
 Al inicio del código podemos encontrar la ubicación de todos los puntos necesarios para el desarrollo de las rutinas, las cuales son 14, 6 Para tomar cada pieza de la estantería, 6 para depositarlas en el balde, 1 para tomar el balde de la banda y llevarlo a un punto cercano y 1 última para tomar el balde en ese punto y devolverlo a la banda. Un ejemplo de proceso  de la pieza 1, se presenta a continuación:
 
@@ -79,7 +79,7 @@ Al inicio del código podemos encontrar la ubicación de todos los puntos necesa
         MoveJ Target_183,v300,z100,Ventosa\WObj:=WorkBanda;
     ENDPROC
 ```
-Cabe aclarar que, este código es resultante de la rutina creada en robostudio.
+Cabe aclarar que, este código es resultante de la rutina creada en RoboStudio.
 
 
 Dentro del main se encuentra toda la lógica para realizar las acciones en orden, las condiciones de entradas y salidas para iniciar las secuencias y evidenciar cuál se está trabajando, así como el accionamiento de la válvula que permite el funcionamiento de la ventosa. Un ejemplo de lógica del Main, en este caso para la pieza 1, se presenta a continuación: 
@@ -109,10 +109,10 @@ Esta rutina sigue los siguientes pasos:
 # 6) Comparación de tiempos
 Se midió el tiempo para una rutina completa y para la ubicación de las piezas a mano:
 
-  - Una rutina completa en promedio dura 1:25 min 48
+  - Una rutina completa en promedio dura 1:25 min
   - Una rutina de selección a mano dura alrededor de 2:00 min 
 
-Inicialmente no se llegaria a la conclusión de  35s de diferencia fuese un tiempo significativo, sin embargo si la selección de píezas se lleva a escala industrial la cantidad vez en que puede repetirse este proceso pasa de 30 a 48 veces. Esto sin contar que una persona siente los efectos del cansancio.
+Inicialmente no se llegaria a la conclusión de  35s de diferencia fuese un tiempo significativo, sin embargo si la selección de píezas se lleva a escala industrial la cantidad vez en que puede repetirse este proceso pasa de 30 a 48 veces en una hora. Esto sin contar que una persona siente los efectos del cansancio.
 
 
 # 7) Video de sustentanción
