@@ -71,7 +71,16 @@ En este software se hace la programación de todas las rutinas y trayectorias pa
 # 5) Código de RAPID
 El código RAPID empleado se encuentra adjunto a este repositorio. 
 
-Al inicio del código podemos encontrar la ubicación de todos los puntos necesarios para el desarrollo de las rutinas, las cuales son 14, 6 Para tomar cada pieza de la estantería, 6 para depositarlas en el balde, 1 para tomar el balde de la banda y llevarlo a un punto cercano y 1 última para tomar el balde en ese punto y devolverlo a la banda.
+Al inicio del código podemos encontrar la ubicación de todos los puntos necesarios para el desarrollo de las rutinas, las cuales son 14, 6 Para tomar cada pieza de la estantería, 6 para depositarlas en el balde, 1 para tomar el balde de la banda y llevarlo a un punto cercano y 1 última para tomar el balde en ese punto y devolverlo a la banda. Un ejemplo de proceso  de la pieza 1, se presenta a continuación:
+
+```
+    PROC Pieza_1B()
+        MoveJ Target_23,v100,z100,Ventosa\WObj:=WorkEstante;
+        MoveJ Target_183,v300,z100,Ventosa\WObj:=WorkBanda;
+    ENDPROC
+```
+Cabe aclarar que, este código es resultante de la rutina creada en robostudio.
+
 
 Dentro del main se encuentra toda la lógica para realizar las acciones en orden, las condiciones de entradas y salidas para iniciar las secuencias y evidenciar cuál se está trabajando, así como el accionamiento de la válvula que permite el funcionamiento de la ventosa.
 
@@ -83,7 +92,7 @@ Dentro del main se encuentra toda la lógica para realizar las acciones en orden
             WAITTIME 2;
             SetDO DO_02,0;
             Pieza_1B;
-            WAITTIME 0.8;
+            WAITTIME 2;
             SetDO DO_01,1;
             WAITTIME 2;
             SetDO DO_01,0;
