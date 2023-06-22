@@ -8,8 +8,6 @@ Juan David Morales Restrepo
 
 David Leonardo Cocoma Reyes 
 
-
-
 # 1) Requisitos
 
 - Robot Studio versión 2021 o superior INSTALADO y activo.
@@ -46,31 +44,39 @@ La herramienta se construyó buscando que esta sostuviese tanto el gancho como l
 
 ![Imagen 2](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/medidaspng.png)
 
-La herramienta fue diseñada en 3 partes de forma que en cazo de que alguna llegara a dañarse se pudiera reemplazar de forma sencilla y económica.
+La herramienta fue diseñada en 3 partes de forma que en cazo de que alguna llegara a dañarse se pudiera reemplazar de forma sencilla y económica. 
+1. La base de la herramienta que tiene el acople para conectarese al ABB.
+2. El cilindro donde se instala el gancho.
+3. La abrazadera en forma de T la cual se encarga de sostener la ventosa.
 
 El modelo en inventor con el gancho y la ventosa queda de la siguiente forma:
 ![Imagen 3](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/ensamble.png)
 
 
-
-
 ------------------------------------------------------FOTOS HERRAMIENTA E INVENTOR XD-------------------------------------------------------------------
 
 # 4) RobotStudio
-En el código de robostudio se tiene una estanteria, con medidas reales, las piezas fabricadas (ya con su inclinación), la banda transportadora, el balde y el brazo robot, como se aprecia en la siguiente imagen:
+En el código de robostudio se tiene una estanteria, con medidas reales, las piezas fabricadas (ya con su inclinación), la banda transportadora, el balde y el brazo robot, como se puede apreciar en las siguientes imagenes:
 
+![Imagen 4](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/inventor.png)
 
+![Imagen 5](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/estanteria.png)
 
-----------------------------------------------------------PANTALLAZO ROBOSTUDIO------------------------------------------------
+![Imagen 6](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/banda.png)
+
+En este software se hace la programación de todas las rutinas y trayectorias para el desarrollo del proyecto, se habla en detalle en el apartado del código en RAPID.
 
 # 5) Código de RAPID
-El código RAPID empleado se encuentra adjunto a este repositorio. Dicho código contienen una rutina por pieza, una para tomar el balde y otra para dejarlo en su posición original.
+El código RAPID empleado se encuentra adjunto a este repositorio. 
 
----------------------------------------------------------Explicar mejor------------------------------------------
+Al inicio del código podemos encontrar la ubicación de todos los puntos necesarios para el desarrollo de las rutinas, las cuales son 14, 6 Para tomar cada pieza de la estantería, 6 para depositarlas en el balde, 1 para tomar el balde de la banda y llevarlo a un punto cercano y 1 última para tomar el balde en ese punto y devolverlo a la banda.
+
+Dentro del main se encuentra toda la lógica para realizar las acciones en orden, las condiciones de entradas y salidas para iniciar las secuencias y evidenciar cuál se está trabajando, así como el accionamiento de la válvula que permite el funcionamiento de la ventosa.
+
+---------------------------------------------------------Subir Rapid------------------------------------------
 
 
 # 6) Comparación de tiempos
-
 
 ------------------------------------------------------TOMAR TIMEPO MAÑANA---------------------------------------------------------
 
