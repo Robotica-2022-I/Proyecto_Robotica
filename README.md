@@ -44,7 +44,7 @@ La herramienta se construyó buscando que esta sostuviese tanto el gancho como l
 
 ![Imagen 2](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/medidaspng.png)
 
-La herramienta fue diseñada en 3 partes de forma que en cazo de que alguna llegara a dañarse se pudiera reemplazar de forma sencilla y económica. 
+La herramienta fue diseñada en 3 partes de forma que en caso de que alguna llegara a dañarse se pudiera reemplazar de forma sencilla y económica. 
 1. La base de la herramienta que tiene el acople para conectarese al ABB.
 2. El cilindro donde se instala el gancho.
 3. La abrazadera en forma de T la cual se encarga de sostener la ventosa.
@@ -52,17 +52,23 @@ La herramienta fue diseñada en 3 partes de forma que en cazo de que alguna lleg
 El modelo en inventor con el gancho y la ventosa queda de la siguiente forma:
 ![Imagen 3](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/ensamble.png)
 
+El resultado en físico de la herramienta se aprecia en las siguientes imágenes (sin gancho-ventosa y con ellos):
+![Imagen 4](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/Herramienta%20en%20físico.jpg)
+![Imagen 5](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/Herramienta_gancho.jpg)
+
+
+
 
 ------------------------------------------------------FOTOS HERRAMIENTA E INVENTOR XD-------------------------------------------------------------------
 
 # 4) RobotStudio
 En el código de robostudio se tiene una estanteria, con medidas reales, las piezas fabricadas (ya con su inclinación), la banda transportadora, el balde y el brazo robot, como se puede apreciar en las siguientes imagenes:
 
-![Imagen 4](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/inventor.png)
+![Imagen 6](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/inventor.png)
 
-![Imagen 5](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/estanteria.png)
+![Imagen 7](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/estanteria.png)
 
-![Imagen 6](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/banda.png)
+![Imagen 8](https://github.com/Robotica-2022-I/Proyecto_Robotica/blob/main/Imagenes%20proyecto/banda.png)
 
 En este software se hace la programación de todas las rutinas y trayectorias para el desarrollo del proyecto, se habla en detalle en el apartado del código en RAPID.
 
